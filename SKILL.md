@@ -1,5 +1,5 @@
 ---
-name: translate-image-to-chinese
+name: image-zh
 description: Translate English text inside raster article illustrations, diagrams, screenshots, and social-media graphics into natural Simplified Chinese while preserving the original image's layout and visual design. Use when the requested deliverable is a Chinese-localized image, not merely a text translation or OCR transcript.
 ---
 

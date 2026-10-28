@@ -1,4 +1,4 @@
-# 英文配图中文化 Skill
+# image-zh：英文配图中文化 Skill
 
 一个面向 Codex 的图片本地化 Skill：把文章插图、流程图、截图和社交媒体配图中的英文替换为简体中文，同时尽量保留原图的布局、层级、配色和视觉风格。
 
@@ -16,8 +16,8 @@
 将仓库克隆到 Codex Skill 目录：
 
 ```bash
-git clone https://github.com/yysfwls/translate-image-to-chinese.git ~/.codex/skills/translate-image-to-chinese
-python3 -m pip install -r ~/.codex/skills/translate-image-to-chinese/requirements.txt
+git clone https://github.com/yysfwls/image-zh.git ~/.codex/skills/image-zh
+python3 -m pip install -r ~/.codex/skills/image-zh/requirements.txt
 ```
 
 ## 使用
@@ -25,7 +25,7 @@ python3 -m pip install -r ~/.codex/skills/translate-image-to-chinese/requirement
 上传需要处理的英文图片，然后输入：
 
 ```text
-使用 $translate-image-to-chinese 把这张英文配图翻译成中文。
+使用 $image-zh 把这张英文配图翻译成中文。
 ```
 
 若有固定术语偏好，可以同时提供术语表；用户提供的术语表拥有最高优先级。
@@ -44,7 +44,7 @@ python3 scripts/normalize_image_size.py \
 ## 文件结构
 
 ```text
-translate-image-to-chinese/
+image-zh/
 ├── SKILL.md
 ├── agents/
 │   └── openai.yaml

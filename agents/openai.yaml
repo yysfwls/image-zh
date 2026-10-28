@@ -1,4 +1,4 @@
 interface:
   display_name: "英文配图中文化"
   short_description: "翻译图片内英文为简体中文，并保持原图版式、层级、配色与视觉风格"
-  default_prompt: "使用 $translate-image-to-chinese 把这张英文配图翻译成中文，并保持原图布局和风格。"
+  default_prompt: "使用 $image-zh 把这张英文配图翻译成中文，并保持原图布局和风格。"
